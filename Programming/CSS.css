@@ -1,0 +1,61 @@
+h1 {
+    color:aliceblue; 
+    length: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75px;
+    text-shadow: 2px 2px 5px #fff;
+    background-image: url("New Walk scenery cropped.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif
+}
+
+nav {
+    text-align: right;
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(194, 194, 194);
+    background-size: cover;
+}
+
+.Avatar {
+    border-radius: 50%;
+    float: right;
+}
+
+.PortfolioImage {
+    max-width: 49%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fff
+}
+
+.SocialMediaIcons {
+    float: center;
+    height: 65px;
+    width: 65px;
+}
+
+.FlexContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Video {
+    width: 50%;
+}
+
+.Leaf {
+    width: 20%;
+}
