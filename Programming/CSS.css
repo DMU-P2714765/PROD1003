@@ -9,6 +9,9 @@ h1 {
     background-size: cover;
     margin: 15px;
 }
+/* This white shadow behind the header text that's making it appear to be glowing was, for a time, originally black, via the 0, 0, 0 RGB values.
+It was changed to white to make my site that little bit more unique-looking from my original design concept, as the latter also features black shadows
+behind the text elements in the header bar for depth. */
 
 h2 {
     font-size: 40px;
@@ -34,6 +37,9 @@ nav {
     background-size: cover;
     margin: 15px;
 }
+/* This is where the main a href link attributes, one of the site's characteristics that's a constant for both of the pages, lie, and unlike the original
+design concept there's no glyphs between the page titles to separate them, along with me wanting the font here to be more typewriter-like this time as another way of
+differentiating this site from said design concept, so that the site's not merely a carbon copy. */
 
 .Avatar {
     border-radius: 50%;
@@ -42,7 +48,7 @@ nav {
     margin: 15px;
 }
 
-
+/*  */
 
 .SocialMediaIcons {
     float: center;
@@ -64,6 +70,8 @@ nav {
 .Leaf {
     width: 20%;
 }
+/* The leaves were deliberately designed and given this width property to make them smaller so that they'd detract less attention from the video, which is the main and
+most important characteristic of the entirety of the Home page. */
 
         img {
             width: 100%;
@@ -98,3 +106,6 @@ nav {
             float: left;
             margin: 3px;
         }
+        /* These are the properties with the most amount of coding in all of this CSS file, for the Portfolio page; this is an overlay effect, which involves transitions that are
+        only triggered by interaction from the user at any given time, so it needed very specific coding to ensure that nothing became too disjointed or messy due to changes caused by this interaction.
+        With the exception of the video on the Home page, the overlays for the photographs are the only other non-static element on the whole site. */
